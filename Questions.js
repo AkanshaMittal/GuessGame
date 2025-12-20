@@ -21,3 +21,25 @@
 //      console.log("values after 10% offer applied",items[i]);
 //     i++;
 // }
+
+let stringValue = "akansha";
+let count = 0;
+// function CountVowels(value) {
+//    for (let i = 0; i < value.length; i++) {
+//         if (value[i] == 'a'||value[i] == 'e'||value[i] == 'i'||value[i] == 'o'|| value[i] == 'u') 
+//             {
+//             count++;
+//         }}}
+function CountVowels(value) {
+    for (char of value) {
+if (char == 'a' || char == 'e' || char == 'i' || char == 'o' || char == 'u') {
+            count++;
+        }
+    }
+}
+CountVowels(stringValue);
+console.log("number of vowels in the string", count);
+
+
+
+
