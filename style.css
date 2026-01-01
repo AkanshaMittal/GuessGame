@@ -1,0 +1,20 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    color: black;
+    background-color: aquamarine;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;  /* makes them sit side by side */
+
+}
+#practiceDiv{
+    width:300px;
+    height: 300px;
+border: 3px solid green;
+background-color: green;
+color: wheat;
+text-align: center;
+margin-top: 10px;
+}
